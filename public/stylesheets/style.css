@@ -176,6 +176,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none; }
 
+ul {
+  list-style: none; }
+
 .wrapper {
   margin: 0 auto;
   width: 60em;
@@ -193,9 +196,10 @@ section p {
 
 header {
   background-color: white;
+  border-bottom: 1px #cccccc;
   position: fixed;
-  width: 100%;
   display: block;
+  width: 100%;
   z-index: 99;
   border-bottom: 1px solid #cccccc; }
   header nav {
@@ -277,3 +281,6 @@ header {
     left: 0; }
     #products aside img {
       max-height: 500px; }
+
+#team ul li {
+  padding-bottom: 10px; }
