@@ -196,7 +196,8 @@ header {
   position: fixed;
   width: 100%;
   display: block;
-  z-index: 999; }
+  z-index: 99;
+  border-bottom: 1px solid #cccccc; }
   header nav {
     display: block; }
     header nav a {
@@ -216,7 +217,8 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-color: white;
-  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.7); }
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.7);
+  padding-top: 50px; }
   #home span, #home aside {
     position: absolute; }
   #home span {
