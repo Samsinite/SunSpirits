@@ -29,9 +29,6 @@ section
       size: ($font-size * 2.2)
     padding: 20px 0
     
-  > span, aside
-    position: absolute
-    
     
 header
   background:
@@ -101,11 +98,22 @@ header
       strong
     
 #process
-  width: $cols6
-  top: 50px
-  right: $cols1
+  min-height: 400px
+  
+  aside
+    position: absolute
+    
+  span
+    display: block
+    width: $cols4
+    
+  aside
+    width: $cols6
+    top: 50px
+    right: $cols1
+    
+    img
+      width: 100%
     
 #products
-  background:
-    color: #fff
   min-height: 400px

@@ -187,8 +187,6 @@ section .wrapper {
 section h2 {
   font-size: 35.2px;
   padding: 20px 0; }
-section > span, section aside {
-  position: absolute; }
 
 header {
   background-color: white;
@@ -239,10 +237,18 @@ header {
       color: #666666; }
 
 #process {
-  width: 30em;
-  top: 50px;
-  right: 5em; }
+  min-height: 400px; }
+  #process aside {
+    position: absolute; }
+  #process span {
+    display: block;
+    width: 20em; }
+  #process aside {
+    width: 30em;
+    top: 50px;
+    right: 5em; }
+    #process aside img {
+      width: 100%; }
 
 #products {
-  background-color: white;
   min-height: 400px; }
