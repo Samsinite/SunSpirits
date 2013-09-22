@@ -187,6 +187,9 @@ section .wrapper {
 section h2 {
   font-size: 35.2px;
   padding: 20px 0; }
+section p {
+  line-height: 130%;
+  color: #666666; }
 
 header {
   background-color: white;
@@ -229,15 +232,13 @@ header {
     background-color: rgba(255, 255, 255, 0.8); }
     #home aside h2 {
       font-size: 32px;
-      margin-bottom: 20px;
       color: #333333; }
     #home aside p {
-      line-height: 130%;
       font-size: 18px;
       color: #666666; }
 
 #process {
-  min-height: 400px;
+  min-height: 500px;
   padding-top: 20px; }
   #process aside {
     position: absolute; }
@@ -252,7 +253,7 @@ header {
       width: 100%; }
 
 #products {
-  min-height: 400px; }
+  min-height: 650px; }
   #products aside, #products span {
     position: absolute; }
   #products span {
@@ -264,7 +265,8 @@ header {
     background-color: #eeeeee;
     border-radius: 10px; }
     #products span h3 {
-      font-size: 19.2px; }
+      font-size: 19.2px;
+      margin-bottom: 20px; }
   #products aside {
     width: 20em;
     top: 90px;
