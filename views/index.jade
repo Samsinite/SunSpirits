@@ -1,5 +1,50 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header
+    .wrapper
+      nav
+        a(href="#home") Home
+        a(href="#process") Process
+        a(href="#products") Products
+        a(href="#team") Team
+        a(href="#contact") Contact
+        
+  section#home
+    .wrapper
+      span
+        h1.logo
+          img( src="/images/logo_white.png")
+          
+      aside
+        h2 Saving the world one drink at a time!
+        
+        p 
+          strong Sun Spirits Distilling Company 
+          | is a craft distillery out to save the world one drink at a time. Our goal is to use free solar energy, cut down our carbon footprint with recycled materials, and pass the savings on to the consumer in superior taste.
+  
+  section#process
+    .wrapper
+      h2 Our Process
+      
+      span
+        p We harness the power of the sun through a unique process.
+        
+      aside
+        img(src="/images/process.jpg")
+  
+  section#products
+    .wrapper
+      h2 Our Process
+      
+      span
+        p We harness the power of the sun through a unique process.
+        
+      aside
+        img(src="/images/process.jpg")
+
+    
+  section#team
+  
+  section#contact
+    
