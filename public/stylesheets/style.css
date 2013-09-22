@@ -193,8 +193,10 @@ section p {
 
 header {
   background-color: white;
-  postion: fixed;
-  display: block; }
+  position: fixed;
+  width: 100%;
+  display: block;
+  z-index: 999; }
   header nav {
     display: block; }
     header nav a {
