@@ -237,7 +237,8 @@ header {
       color: #666666; }
 
 #process {
-  min-height: 400px; }
+  min-height: 400px;
+  padding-top: 20px; }
   #process aside {
     position: absolute; }
   #process span {
@@ -252,3 +253,21 @@ header {
 
 #products {
   min-height: 400px; }
+  #products aside, #products span {
+    position: absolute; }
+  #products span {
+    display: block;
+    width: 30em;
+    right: 5em;
+    top: 120px;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 10px; }
+    #products span h3 {
+      font-size: 19.2px; }
+  #products aside {
+    width: 20em;
+    top: 90px;
+    left: 0; }
+    #products aside img {
+      max-height: 500px; }
