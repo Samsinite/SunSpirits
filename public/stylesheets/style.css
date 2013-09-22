@@ -1,8 +1,248 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
 
 a {
-  color: #00B7FF;
-}
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ins {
+  background-color: #ffff99;
+  color: black;
+  text-decoration: none; }
+
+mark {
+  background-color: #ffff99;
+  color: black;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, nav, section, audio, canvas, video {
+  display: block; }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  min-height: 100%;
+  font-size: 100%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+b, strong {
+  font-weight: bold; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a img, img {
+  -ms-interpolation-mode: bicubic;
+  border: 0; }
+
+input, textarea, button, select {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+textarea {
+  overflow: auto; }
+
+::selection {
+  background: #25b4aa;
+  color: white; }
+
+::-moz-selection {
+  background: #25b4aa;
+  color: white; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62); }
+
+@media screen and (max-width: 1px) {
+  body {
+    font-size: 0.875em; } }
+@media screen and (max-width: 1px) {
+  body {
+    font-size: 1.125em; } }
+body {
+  font-family: "helvetica neue", "helevetica", "arial", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 60em;
+  position: relative;
+  box-sizing: border-box; }
+
+section .wrapper {
+  padding: 0 20px; }
+section h2 {
+  font-size: 35.2px;
+  padding: 20px 0; }
+section > span, section aside {
+  position: absolute; }
+
+header {
+  background-color: white;
+  postion: fixed;
+  display: block; }
+  header nav {
+    display: block; }
+    header nav a {
+      display: inline-block;
+      color: black;
+      padding: 15px 20px;
+      cursor: pointer;
+      font-family: "Raleway", sans-serif;
+      font-size: 16px; }
+      header nav a:hover {
+        background-color: #f9dc30; }
+
+#home {
+  min-height: 400px;
+  background-image: url("/images/tc_bg.jpg");
+  background-size: auto auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: white;
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.7); }
+  #home span, #home aside {
+    position: absolute; }
+  #home span {
+    width: 15em;
+    top: 50px;
+    left: 5em; }
+    #home span h1.logo img {
+      height: 300px; }
+  #home aside {
+    width: 30em;
+    top: 50px;
+    right: 5em;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); }
+    #home aside h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #333333; }
+    #home aside p {
+      line-height: 130%;
+      font-size: 18px;
+      color: #666666; }
+
+#process {
+  width: 30em;
+  top: 50px;
+  right: 5em; }
+
+#products {
+  background-color: white;
+  min-height: 400px; }

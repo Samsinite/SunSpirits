@@ -1,0 +1,111 @@
+@import reset
+@import frameless
+
+$yellow: #FFDE00
+
+body
+  font:
+    family: 'helvetica neue', 'helevetica', 'arial', sans-serif
+    
+h1, h2, h3, h4, h5, h6
+  font-family: 'Raleway', sans-serif
+
+a
+  text:
+    decoration: none
+
+.wrapper
+  margin: 0 auto
+  width: $cols12
+  position: relative
+  box-sizing: border-box
+  
+section
+  .wrapper
+    padding: 0 20px
+    
+  h2
+    font:
+      size: ($font-size * 2.2)
+    padding: 20px 0
+    
+  > span, aside
+    position: absolute
+    
+    
+header
+  background:
+    color: #fff
+  postion: fixed
+  display: block
+  
+  nav
+    display: block
+    a
+      display: inline-block
+      color: #000
+      padding: 15px 20px
+      cursor: pointer
+      font:
+        family: 'Raleway', sans-serif
+        size: ($font-size)
+      
+      &:hover
+        background:
+          color: #f9dc30
+          
+#home
+  min-height: 400px
+  background:
+    image: url('/images/tc_bg.jpg')
+    size: auto auto
+    position: center center
+    repeat: no-repeat
+    color: #fff
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, .7)
+  
+  span, aside
+    position: absolute
+  
+  span
+    width: $cols3
+    top: 50px
+    left: $cols1
+    
+    h1.logo
+      img
+        height: 300px
+    
+  aside
+    width: $cols6
+    top: 50px
+    right: $cols1
+    padding: 20px
+    border-radius: 10px
+    background:
+      color: rgba(255, 255, 255, .8)
+      
+    h2
+      font:
+        size: ($font-size * 2)
+      margin:
+        bottom: 20px
+      color: #333
+
+    p
+      line-height: 130%
+      font:
+        size: ($font-size + 2)
+      color: #666
+      
+      strong
+    
+#process
+  width: $cols6
+  top: 50px
+  right: $cols1
+    
+#products
+  background:
+    color: #fff
+  min-height: 400px
