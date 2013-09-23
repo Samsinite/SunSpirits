@@ -284,9 +284,12 @@ header {
 
 #team ul li {
   padding-bottom: 10px; }
+#team img {
+  text-align: cneter;
+  padding-bottom: 20px; }
 
 #contact {
-  padding-bottom: 20px; }
+  padding-bottom: 30px; }
   #contact li {
     display: inline-block;
     margin-right: 20px; }
